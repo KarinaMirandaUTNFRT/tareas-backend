@@ -16,7 +16,7 @@ app.listen(PORT, () => {
     console.info(`servidor activo en el puerto ${PORT}`);
 });
 app.get("/api/tarea", (req, res)=> {
-console.log('Me llego solicitud nueva');
+console.log('Me llego solicitud nuevaaaa');
 res.json ( 
     { 
     mensaje:"conexion creada",
